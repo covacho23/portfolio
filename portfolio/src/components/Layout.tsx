@@ -3,7 +3,6 @@ import Projects from "../pages/Projects"
 import Contact from "../pages/Contact"
 import Hero from "../pages/Hero"
 
-
 function Home() {
   return (
     <>
