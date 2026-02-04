@@ -7,7 +7,6 @@ import './App.css'
 function App() {
   return (
     <div>
-      <h1>Mi portfolio</h1>
       <Cabecera />
       <Layout />
       <Footer />
