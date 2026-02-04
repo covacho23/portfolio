@@ -1,3 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text-base: 1.05rem;
+  --text-h2: 1.8rem;
+  --text-h3: 1.05rem;
+
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 2rem;
+  --space-lg: 4rem;
+}
+
+
 body {
   font-size: 16px;
   line-height: 1.5;
@@ -11,4 +29,78 @@ body {
 
 button {
   padding: 0.75rem 1rem;
+}
+
+/* ===== ABOUT SECTION ===== */
+
+.about {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: var(--space-lg) 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.about h2 {
+  font-size: var(--text-h2);
+  margin-bottom: var(--space-md);
+}
+
+.about h3 {
+  font-size: var(--text-h3);
+  margin-bottom: var(--space-xs);
+  font-weight: 600;
+}
+
+/* --- Sobre mí --- */
+
+#aboutme {
+  max-width: 700px;
+}
+
+#aboutme h2 {
+  margin-bottom: 2rem;
+}
+
+#aboutme p {
+  font-size: var(--text-base);
+  line-height: 1.7;
+  margin-bottom: var(--space-sm);
+  color: #333;
+}
+
+#aboutme strong {
+  font-weight: 600;
+}
+
+/* --- Tecnologías --- */
+
+#tecnologias h2 {
+  margin-bottom: 2rem;
+}
+
+/* Grid de tecnologías */
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--space-md);
+}
+
+.technologies h3 {
+  margin-bottom: 0.75rem;
+  font-size: 1.05rem;
+}
+
+.technologies ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.technologies li {
+  font-size: var(--text-base);
+  margin-bottom: var(--space-xs);
+  color: #444;
 }
