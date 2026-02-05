@@ -1,9 +1,13 @@
 function Footer() {
     return(
-        <div>
-            <div id="cont">Contacto</div>
-            <div id="redsoc">Redes Sociales</div>
-        </div>
+        <footer>
+            <p>© 2026 Sara Covacho</p>
+            <nav>
+                <a href="#projects">Proyectos</a>
+                <a href="#contact">Contacto</a>
+            </nav>
+        </footer>
+
     )
 
 }

@@ -9,7 +9,17 @@ const projects = [
     repoUrl: "https://github.com/covacho23/portfolio",
   },
   {
-    title: "Gestor de Tareas",
+    title: "E-commerce",
+    description: "Aplicación web para organizar tareas diarias.",
+    technologies: ["Vue", "JavaScript", "CSS"],
+  },
+  {
+    title: "Test Mossos",
+    description: "Aplicación web para organizar tareas diarias.",
+    technologies: ["Vue", "JavaScript", "CSS"],
+  },
+    {
+    title: "Gestor de turnos / reservas / citas",
     description: "Aplicación web para organizar tareas diarias.",
     technologies: ["Vue", "JavaScript", "CSS"],
   },
