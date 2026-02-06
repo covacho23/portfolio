@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <section id="hero">
+    <section id="hero" className="hero">
       <h1>Sara Covacho Santiago</h1>
 
       <p>
@@ -11,7 +11,7 @@ function Hero() {
         Ahora mismo me obsesionan: deportes / montaña / libros.
       </p>
 
-      <div>
+      <div className="hero-actions">
         <a href="#projects">
           <button>Ver proyectos</button>
         </a>
